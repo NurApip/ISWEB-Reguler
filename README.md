@@ -1,5 +1,4 @@
-Tugas Reguler ISB-310: Sistem Informasi Berbasis Web
-----------------------------------------------------------
-Repository ini berisi kumpulan tugas untuk mata kuliah ISB-310 Sistem Informasi Berbasis Web.
+ISWEB-Reguler
+---------------------------------------------
 
-Identi
+Tugas Sistem Informasi Berbasis Web
