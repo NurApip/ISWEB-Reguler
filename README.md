@@ -1,8 +1,10 @@
 #Tugas Reguler ISB-310: Sistem Informasi Berbasis Web
+----------------------------------------------------------
+
 Repository ini berisi kumpulan tugas untuk mata kuliah ISB-310 Sistem Informasi Berbasis Web.
 
 Identitas Mahasiswa
-Nama: Muhammad Aqsha Muhaimin
+Nama: Nur Avip
 NRP: 16-2023-003
 Program Studi: Sistem Informasi
 Institusi: Institut Teknologi Nasional (Itenas) Bandung
