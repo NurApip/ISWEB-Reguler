@@ -13,9 +13,9 @@ Identitas Mahasiswa
 Daftar Tugas
 ----------------------------------------------------------
 
-Week 1: Pengumpulan Tugas Week 1
-Week 2: Pengumpulan Tugas Week 2 (HTML CSS)
-Week 3: Pengumpulan Tugas Week 3 (Button Increment JS)
-Week 3: Pengumpulan Tugas Week 4 (Kalkulator, Kasir, & Garis Hidup Numerologi)
-(Akan terus diperbarui setiap minggu)
+- Week 1: Pengumpulan Tugas Week 1
+-
+-
+-
+- (Akan terus diperbarui setiap minggu)
 Dibuat untuk memenuhi tugas mata kuliah semester 6.
