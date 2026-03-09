@@ -13,7 +13,7 @@ Identitas Mahasiswa
 Daftar Tugas
 ----------------------------------------------------------
 
-- [Week 1](../../tree/Week-1: Pengumpulan Tugas Week 1)
+- [Week 1: Pengumpulan Tugas Week 1](../../tree/Week-1)
 -
 -
 -
