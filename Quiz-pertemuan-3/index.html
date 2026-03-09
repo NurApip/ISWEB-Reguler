@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Click Counter</title>
+</head>
+<body>
+
+    <button onclick="clickCounter()">Click me!</button>
+
+    <p id="result"></p>
+
+    <p>Click the button to see the counter increase.</p>
+    <p>Close the browser tab (or window), and try again, and the counter is reset.</p>
+
+    <script>
+        function clickCounter() {
+            if (sessionStorage.clickCount) {
+                sessionStorage.clickCount = Number(sessionStorage.clickCount) + 1;
+            } else {
+                sessionStorage.clickCount = 1;
+            }
+
+            document.getElementById("result").innerHTML =
+                "You have clicked the button " + sessionStorage.clickCount + " time(s) in this session.";
+        }
+    </script>
+
+</body>
+</html>
