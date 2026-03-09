@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferensi Warna</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="appBody">
+
+    <h1 class="main-title">Preferensi Warna</h1>
+
+    <fieldset class="color-container">
+        <legend>Warna</legend>
+        
+        <div class="input-row">
+            <span class="label-text">1. Warna latarbelakang</span>
+            <input type="color" id="bgColorPicker" value="#3b6da4">
+        </div>
+
+        <div class="input-row">
+            <span class="label-text">2. Warna teks</span>
+            <input type="color" id="textColorPicker" value="#d11d1d">
+        </div>
+    </fieldset>
+
+    <button class="btn-simpan" onclick="applyPreferences()">Simpan</button>
+
+    <script>
+        function applyPreferences() {
+            const bgColor = document.getElementById('bgColorPicker').value;
+            const textColor = document.getElementById('textColorPicker').value;
+
+            document.body.style.backgroundColor = bgColor;
+            document.body.style.color = textColor;
+
+            // Simpan ke localStorage agar awet saat refresh
+            localStorage.setItem('userBg', bgColor);
+            localStorage.setItem('userText', textColor);
+        }
+
+        // Load data saat halaman dibuka
+        window.onload = () => {
+            const savedBg = localStorage.getItem('userBg');
+            const savedText = localStorage.getItem('userText');
+
+            if (savedBg) {
+                document.body.style.backgroundColor = savedBg;
+                document.getElementById('bgColorPicker').value = savedBg;
+            }
+            if (savedText) {
+                document.body.style.color = savedText;
+                document.getElementById('textColorPicker').value = savedText;
+            }
+        };
+    </script>
+</body>
+</html>
